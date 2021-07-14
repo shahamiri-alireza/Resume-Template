@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #212529;
+}
+.nav-item {
+  margin: 0 1rem;
+}
+.nav-link {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.active {
+  font-weight: bold;
+}
+#showcase {
+  background: url("../images/showcase.jpg");
+  height: 100%;
+}
+#showcase-container {
+  padding-top: 10%;
+}
+#headercard{
+  background-color: transparent;
+}
+.card{
+  border: none;
+}
+.card-title{
+  font-size: 30px;
+}
+.prog{
+  background-color: blue;
+  height: 2px;
+  width: 0%;
+  margin-bottom: 0;
+}
+.progress{
+  height: 10px;
+  background-color: darkgray;
+}
+.cardhead{
+  font-size: 40px;
+}
+#contact-info th{
+  font-size: 20px;
+}
+#contact-info td{
+  font-size: 18px;
+}
+#about{
+  font-size: 20px;
+}
+#aboutme, #skills{
+  padding-top: 20px;
+}
+/* Media  */
+@media screen and (max-width:767px) {
+  #header-card-prof{
+    width: 25%;
+  }
+
+}
+@media screen and (min-width:768px) {
+  #header-card-prof{
+    width: 50%;
+  }
+  .active{
+    border-bottom: 3px blue solid;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+}
+/* Skills */
+#skill1{
+  width: 90%;
+}
+#skill2{
+  width: 80%;
+}
+#skill3{
+  width: 50%;
+}
+#skill4{
+  width: 60%;
+}
+#skill5{
+  width: 85%;
+}
+#skill6{
+  width: 70%;
+}
+.test{
+  margin-top: 10000px;
+}
