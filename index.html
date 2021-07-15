@@ -40,10 +40,7 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#experience">Experience & Education</a>
             </li>
           </ul>
         </div>
@@ -73,9 +70,18 @@
                   veritatis ex nisi cumque earum reiciendis ratione architecto
                   ipsum distinctio dicta! Pariatur ad sed corporis harum.
                 </p>
-                <button class="btn btn-light mt-2 d-block mx-auto mx-md-0">
-                  Download CV
-                </button>
+                <div class="d-md-flex">
+                  <button class="btn btn-light mt-2 d-block mx-auto mx-md-1">
+                    Download CV
+                  </button>
+                  <button
+                    class="btn btn-light mt-2 d-block mx-auto mx-md-1"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ContactModal"
+                  >
+                    Contact Me
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -238,7 +244,100 @@
         </div>
       </div>
     </div>
-    <div id="experience" class="my-5"></div>
+    <div id="experience" class="my-5">
+      <div class="container-md">
+        <h2 class="text-light m-3 cardhead">Experience</h2>
+        <div class="card my-4 bg-dark text-light shadow-lg">
+          <div class="card-body">
+            <div class="card-title">
+              Cafepay<small class="text-muted"> ● Since 1 June 2021</small>
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              culpa voluptates voluptatibus est soluta! Praesentium ipsum illum
+              saepe cum iure.
+            </div>
+          </div>
+        </div>
+        <div class="card my-4 bg-dark text-light shadow-lg rounded-3">
+          <div class="card-body">
+            <div class="card-title">
+              Punisha<small class="text-muted"> ● For 1 year</small>
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              culpa voluptates voluptatibus est soluta! Praesentium ipsum illum
+              saepe cum iure.
+            </div>
+          </div>
+        </div>
+        <h2 class="text-light m-3 cardhead">Education</h2>
+        <div class="card my-4 bg-dark text-light shadow-lg rounded-3">
+          <div class="card-body">
+            <div class="card-title">
+              Shiraz Azad Uni.<small class="text-muted"> ● Since 2020</small>
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              culpa voluptates voluptatibus est soluta! Praesentium ipsum illum
+              saepe cum iure.
+            </div>
+          </div>
+        </div>
+        <div class="card my-4 bg-dark text-light shadow-lg rounded-3">
+          <div class="card-body">
+            <div class="card-title">
+              Ghazal<small class="text-muted"> ● For 3 years</small>
+            </div>
+            <div class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              culpa voluptates voluptatibus est soluta! Praesentium ipsum illum
+              saepe cum iure.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="ContactModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Email:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label"
+                  >Message:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="test">a</div>
     <script src="./Bootstrap/js/bootstrap.js"></script>
     <script

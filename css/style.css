@@ -44,6 +44,9 @@ body {
 .cardhead{
   font-size: 40px;
 }
+.text-muted{
+  font-size: 15px;
+}
 #contact-info th{
   font-size: 20px;
 }
@@ -53,8 +56,8 @@ body {
 #about{
   font-size: 20px;
 }
-#aboutme, #skills{
-  padding-top: 20px;
+#aboutme, #skills, #experience{
+  padding-top: 30px;
 }
 /* Media  */
 @media screen and (max-width:767px) {
@@ -93,6 +96,15 @@ body {
 #skill6{
   width: 70%;
 }
+/* Test */
 .test{
   margin-top: 10000px;
 }
+/* #experience .card .card-text{
+  display: none;
+  transition: all 10s ease-in;
+}
+#experience .card:hover .card-text{
+  display: block;
+  transition: all 10s ease-in;
+} */
