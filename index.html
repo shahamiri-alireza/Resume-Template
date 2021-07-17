@@ -16,7 +16,7 @@
     <title>Alireza Shahamiri</title>
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navbar">
+  <body data-bs-spy="scroll" data-bs-target="#navbar" class="bg-dark">
     <nav
       class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
       id="navbar"
@@ -51,13 +51,19 @@
             </li>
           </ul>
         </div>
+        <button
+          class="btn btn-primary position-absolute end-0"
+          onclick="switchMode()"
+        >
+          Click me
+        </button>
       </div>
       <!-- <div class="prog" id="scrollBar"></div> -->
     </nav>
     <div id="showcase">
       <div class="dark d-flex align-items-center">
         <div class="container-md">
-          <div class="card mb-3 text-light" id="headercard">
+          <div class="card mb-3" id="headercard">
             <div class="row g-0">
               <div class="col-md-4 d-flex align-items-center">
                 <img
@@ -373,7 +379,9 @@
         </div>
       </div>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+      <button class="btn btn-primary">Click me</button>
+    </div>
     <script src="./Bootstrap/js/bootstrap.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -381,6 +389,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/Js/script.js"></script>
     <script>
       AOS.init();
     </script>
