@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Fira Sans", sans-serif;
 }
 body {
   background-color: #212529;
@@ -16,88 +17,104 @@ body {
   font-weight: bold;
 }
 #showcase {
-  background: url("../images/showcase.jpg");
+  background: url("../images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg");
   height: 100%;
+  background-size: cover;
 }
 #showcase-container {
   padding-top: 10%;
 }
-#headercard{
+#headercard {
   background-color: transparent;
 }
-.card{
+.card {
   border: none;
 }
-.card-title{
+.card-title {
   font-size: 30px;
 }
-.prog{
+.skill-title {
+  font-size: 20px;
+}
+.dark{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+}
+.prog {
   background-color: blue;
   height: 2px;
   width: 0%;
   margin-bottom: 0;
 }
-.progress{
+.progress {
   height: 10px;
   background-color: darkgray;
 }
-.cardhead{
+.progress-bar{
+  background-color: #0C8346;
+}
+.cardhead {
   font-size: 40px;
 }
-.text-muted{
+.text-muted {
   font-size: 15px;
 }
-#contact-info th{
+#contact-info th {
   font-size: 20px;
 }
-#contact-info td{
+#contact-info td {
   font-size: 18px;
 }
-#about{
+#about {
   font-size: 20px;
 }
-#aboutme, #skills, #experience{
+#aboutme,
+#skills,
+#experience {
   padding-top: 30px;
 }
 /* Media  */
-@media screen and (max-width:767px) {
-  #header-card-prof{
+@media screen and (max-width: 767px) {
+  #header-card-prof {
     width: 25%;
   }
-
+  #showcase{
+    background-position: center;
+  }
 }
-@media screen and (min-width:768px) {
-  #header-card-prof{
+@media screen and (min-width: 768px) {
+  #header-card-prof {
     width: 50%;
   }
-  .active{
-    border-bottom: 3px blue solid;
+  .active {
+    border-bottom: 3px #0C8346 solid;
   }
   .navbar {
     background-color: transparent;
   }
 }
 /* Skills */
-#skill1{
+#skill1 {
   width: 90%;
 }
-#skill2{
+#skill2 {
   width: 80%;
 }
-#skill3{
+#skill3 {
   width: 50%;
 }
-#skill4{
+#skill4 {
   width: 60%;
 }
-#skill5{
+#skill5 {
   width: 85%;
 }
-#skill6{
+#skill6 {
   width: 70%;
 }
 /* Test */
-.test{
+.test {
   margin-top: 10000px;
 }
 /* #experience .card .card-text{

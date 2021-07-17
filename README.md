@@ -10,4 +10,4 @@ This is my First 'Resume Template' i made for myself.
 
 - Dark\Light Theme
 - Eng\Fa Languages
-- Add animations
+- ~~Add animations~~
