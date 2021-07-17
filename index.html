@@ -49,14 +49,19 @@
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience & Education</a>
             </li>
+            <li class="nav-item">
+              <button onclick="switchMode()" id="switch">
+                <img
+                  src="./images/moon.png"
+                  id="moon"
+                  class="d-none img-fluid"
+                  alt=""
+                />
+                <img src="./images/sun.png" id="sun" class="img-fluid" alt="" />
+              </button>
+            </li>
           </ul>
         </div>
-        <button
-          class="btn btn-primary position-absolute end-0"
-          onclick="switchMode()"
-        >
-          Click me
-        </button>
       </div>
       <!-- <div class="prog" id="scrollBar"></div> -->
     </nav>
@@ -379,9 +384,7 @@
         </div>
       </div>
     </div>
-    <div id="footer">
-      <button class="btn btn-primary">Click me</button>
-    </div>
+    <div id="footer"></div>
     <script src="./Bootstrap/js/bootstrap.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

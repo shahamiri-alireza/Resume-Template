@@ -1,4 +1,6 @@
 var darkMode = true;
+const moonIcon = document.getElementById("moon");
+const sunIcon = document.getElementById("sun");
 function switchMode(){
     if (darkMode){
     document.querySelectorAll(".bg-dark").forEach(element => {
@@ -13,6 +15,8 @@ function switchMode(){
         element.classList.toggle("navbar-dark");
         element.classList.toggle("navbar-light");
     });
+    moonIcon.classList.toggle("d-none");
+    sunIcon.classList.toggle("d-none");
 }
 else{
     document.querySelectorAll(".bg-light").forEach(element => {
@@ -27,6 +31,8 @@ else{
         element.classList.toggle("navbar-dark");
         element.classList.toggle("navbar-light");
     });
+    moonIcon.classList.toggle("d-none");
+    sunIcon.classList.toggle("d-none");
 }
 darkMode = !darkMode;
 }
